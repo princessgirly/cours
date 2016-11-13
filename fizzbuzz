@@ -121,6 +121,7 @@ multiplication.js:9 Buzz
 //Il affiche "Buzz" à la place du nombre si celui-ci est divisible par 5 et non par 3.
 //Ensuite, améliorez votre programme pour qu'il affiche "FizzBuzz" à la place des nombres divisibles à la fois par 3 et par 5.
 
+
 var i;
 for(i = 1; i <=100; i++) {
   if((i % 3 === 0) && (i % 5 === 0)) {
@@ -132,6 +133,7 @@ for(i = 1; i <=100; i++) {
   } else
   console.log(i);
 }
+
 
 //résultat
 multiplication.js:15 1
@@ -207,4 +209,26 @@ multiplication.js:13 Buzz
 multiplication.js:15 71
 multiplication.js:11 Fizz
 multiplication.js:15 73
+
+//Autres solutions :
+
+
+// Solution construisant le message à afficher par concaténation
+for (var nombre = 1; nombre <= 100; nombre++) {
+    var message = ""; // Message à afficher, initialement vide
+    if (nombre % 3 === 0) {
+        // Nombre divisible par 3 : on ajoute "Fizz" au message
+        message += 'Fizz';
+    }
+    if (nombre % 5 === 0) {
+        // Nombre divisible par 5 : on ajoute "Buzz" au message
+        message += 'Buzz';
+    }
+    if (message === "") {
+        // Si message est vide, le nombre n'est divisible ni par 3, ni par 5 :
+        // le message affiché sera le nombre
+        message = nombre;
+    }
+    console.log(message);
+}
 
