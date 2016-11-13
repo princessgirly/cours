@@ -13,3 +13,15 @@ i++;
 4
 5
 Fin programme
+
+
+
+var i = 0;
+while (i <= 4) {
+   console.log("J'ai soif !");
+   i++;
+}
+
+/*resultat :
+5 J'ai soif !
+*/
