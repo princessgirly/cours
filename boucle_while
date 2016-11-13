@@ -1,0 +1,15 @@
+console.log("début du programme");
+var i = 1;
+while(i <= 5) {
+console.log(i);
+i++;
+} console.log("Fin programme");
+
+// resultat :
+1 début du programme
+1
+2
+3
+4
+5
+Fin programme
