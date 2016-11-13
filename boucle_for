@@ -12,3 +12,11 @@ for (compteur = 1; compteur <= 5; compteur++) {
 5
 Fin programme
 */
+
+
+for (var i = 1; i < 5; i++) {
+   console.log("J'ai faim !");
+}
+/*resultat :
+4 J'ai faim !
+*/
