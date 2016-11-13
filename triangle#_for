@@ -1,0 +1,18 @@
+//Ecrivez un programme triangle.js qui construit progressivement un triangle de 7 lignes.
+
+var triangle = "";
+for(i = 1; i <=7; i++ ) {
+  triangle += "#";           // ou   ligne = ligne + "#";
+ console.log(triangle);
+ }
+ 
+ 
+/*
+résultat :
+    #
+    ##
+    ###
+    ####
+    #####
+    ######
+    #######
