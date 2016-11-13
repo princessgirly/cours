@@ -115,3 +115,96 @@ multiplication.js:11 97
 multiplication.js:11 98
 multiplication.js:7 Fizz
 multiplication.js:9 Buzz
+
+//Ecrivez un programme fizzbuzz.js qui affiche tous les nombres entre 1 et 100 avec les exceptions suivantes :
+//Il affiche "Fizz" à la place du nombre si celui-ci est divisible par 3.
+//Il affiche "Buzz" à la place du nombre si celui-ci est divisible par 5 et non par 3.
+//Ensuite, améliorez votre programme pour qu'il affiche "FizzBuzz" à la place des nombres divisibles à la fois par 3 et par 5.
+
+var i;
+for(i = 1; i <=100; i++) {
+  if((i % 3 === 0) && (i % 5 === 0)) {
+    console.log("FizzBuzz");
+  } else if(i % 3 === 0) {
+    console.log("Fizz");
+  } else if(i % 5 === 0) {
+    console.log("Buzz");
+  } else
+  console.log(i);
+}
+
+//résultat
+multiplication.js:15 1
+multiplication.js:15 2
+multiplication.js:11 Fizz
+multiplication.js:15 4
+multiplication.js:13 Buzz
+multiplication.js:11 Fizz
+multiplication.js:15 7
+multiplication.js:15 8
+multiplication.js:11 Fizz
+multiplication.js:13 Buzz
+multiplication.js:15 11
+multiplication.js:11 Fizz
+multiplication.js:15 13
+multiplication.js:15 14
+multiplication.js:9 FizzBuzz
+multiplication.js:15 16
+multiplication.js:15 17
+multiplication.js:11 Fizz
+multiplication.js:15 19
+multiplication.js:13 Buzz
+multiplication.js:11 Fizz
+multiplication.js:15 22
+multiplication.js:15 23
+multiplication.js:11 Fizz
+multiplication.js:13 Buzz
+multiplication.js:15 26
+multiplication.js:11 Fizz
+multiplication.js:15 28
+multiplication.js:15 29
+multiplication.js:9 FizzBuzz
+multiplication.js:15 31
+multiplication.js:15 32
+multiplication.js:11 Fizz
+multiplication.js:15 34
+multiplication.js:13 Buzz
+multiplication.js:11 Fizz
+multiplication.js:15 37
+multiplication.js:15 38
+multiplication.js:11 Fizz
+multiplication.js:13 Buzz
+multiplication.js:15 41
+multiplication.js:11 Fizz
+multiplication.js:15 43
+multiplication.js:15 44
+multiplication.js:9 FizzBuzz
+multiplication.js:15 46
+multiplication.js:15 47
+multiplication.js:11 Fizz
+multiplication.js:15 49
+multiplication.js:13 Buzz
+multiplication.js:11 Fizz
+multiplication.js:15 52
+multiplication.js:15 53
+multiplication.js:11 Fizz
+multiplication.js:13 Buzz
+multiplication.js:15 56
+multiplication.js:11 Fizz
+multiplication.js:15 58
+multiplication.js:15 59
+multiplication.js:9 FizzBuzz
+multiplication.js:15 61
+multiplication.js:15 62
+multiplication.js:11 Fizz
+multiplication.js:15 64
+multiplication.js:13 Buzz
+multiplication.js:11 Fizz
+multiplication.js:15 67
+multiplication.js:15 68
+multiplication.js:11 Fizz
+multiplication.js:13 Buzz
+multiplication.js:15 71
+multiplication.js:11 Fizz
+multiplication.js:15 73
+
