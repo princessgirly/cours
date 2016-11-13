@@ -1,0 +1,14 @@
+var compteur;
+for (compteur = 1; compteur <= 5; compteur++) {
+    console.log(compteur);
+} console.log("Fin programme");
+
+
+/* resultat :
+1
+2
+3
+4
+5
+Fin programme
+*/
