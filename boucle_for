@@ -17,6 +17,19 @@ Fin programme
 for (var i = 1; i < 5; i++) {
    console.log("J'ai faim !");
 }
+
 /*resultat :
 4 J'ai faim !
 */
+
+
+
+for (var compteur = 1; compteur <= 5; compteur++) {
+    console.log(compteur);
+    compteur++; // La variable est modifiée dans le corps de la boucle
+}
+
+//resultat
+1
+3
+5
