@@ -1,0 +1,39 @@
+/////////:a chq tour de boucle affiche le n° de tour de manege .///////
+
+
+var manege;
+for(var manege=1;manege<=10;manege++) {
+  console.log("Tour de boucle n° " + manege);
+}
+
+//résultat :
+Tour de boucle n°1
+Tour de boucle n°2
+Tour de boucle n°3
+Tour de boucle n°4
+Tour de boucle n°5
+Tour de boucle n°6
+Tour de boucle n°7
+Tour de boucle n°8
+Tour de boucle n°9
+Tour de boucle n°10
+
+
+/////////la même chose mais c'est l'utilisateur qui doit rentrer le nombre de tour de manege .///////
+
+var nbTours = Number(prompt("Combien de tours veux-tu faire, mon petit ?"));
+
+var tour = 1;
+while (tour <= nbTours) {
+    console.log("C'est le tour numéro " + tour);
+    tour++;
+}
+
+/* resultat : si je rentre 5 :
+C'est le tour n° 1
+C'est le tour n° 2
+C'est le tour n° 3
+C'est le tour n° 4
+C'est le tour n° 5
+
+*/
