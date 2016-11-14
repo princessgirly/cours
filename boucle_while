@@ -25,3 +25,25 @@ while (i <= 4) {
 /*resultat :
 5 J'ai soif !
 */
+
+
+var nombre = 0;
+while (nombre < 50 || nombre > 100) {
+  nombre = Number(prompt("Entrer un nombre compris entre 50 et 100"));
+  console.log(nombre);
+}
+
+//Résultat : Tant que la valeur entrée n'est pas exacte (c-a-d nb entre 50 et 100) alors la boucle est répêtée jusqu'à ce que la condition soit vraie
+// et la boucle s'arrête
+
+
+
+var lettre = "";
+while (lettre !== "X") {
+    lettre = prompt("Tapez une lettre ou X pour sortir :");
+    console.log(lettre);
+}
+
+//Résultat : Tant que la valeur entrée n'est pas exacte (c-a-d X) alors la boucle est répêtée jusqu'à ce que la condition soit vraie
+// et la boucle s'arrête
+
