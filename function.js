@@ -31,14 +31,14 @@ function carre(x) {
 //l'utilisateur dans deux variables, puis affiche le résultat de l'appel à la fonction direBonjour().
 
 // Renvoie un message de bienvenue
-var prenom = prompt("Bonjour, veuillez entrer votre prénom : ");
-var nom = prompt("Votre nom : ");
+var p = prompt("Bonjour, veuillez entrer votre prénom : ");
+var n = prompt("Votre nom : ");
 
 function direBonjour(prenom, nom) {
     var message = "Bonjour, " + prenom + " " + nom + " !";
     return message;
 }
-console.log(direBonjour(prenom, nom));
+console.log(direBonjour(p, n));
 
 // TODO : faire saisir le prénom et le nom de l'utilisateur
 // TODO : appeler direBonjour() avec les bons arguments et afficher son résultat
