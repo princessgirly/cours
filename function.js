@@ -18,7 +18,7 @@ var i;
 for (var i = 1; i <= 10; i++) {
 
 function carre(x) {
-  var x = x * x;
+  var x = x * x;                // return x * x         (sans var x = x * x 
   return x;
 }
   console.log(carre(i));
