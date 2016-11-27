@@ -15,3 +15,9 @@ var cercle = {};
 
 console.log("Son périmètre vaut " + cercle.perimetre());
 console.log("Son aire vaut " + cercle.aire());
+
+
+
+La réponse : 
+Son périmètre vaut 22.619467080000003
+Son aire vaut 40.71504074400001
