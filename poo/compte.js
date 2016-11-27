@@ -38,3 +38,35 @@ var compte = {};
     };
   console.log("Titulaire : " + compte.titulaire + ", solde :" + compte.solde + " euros.");
   console.log("Titulaire : " + compte.titulaire + ", solde :" + compte.decrire() + " euros.");
+
+/*
+Autre solution  Exercice : compte bancaire
+*/
+var credit = Number(prompt("Entrez le montant à créditer :"));
+var debit = Number(prompt("Entrez le montant à débiter :"));
+
+var compte = {
+    titulaire: "Alex",
+    solde: 0,
+
+    // Crédite le compte d'un certain montant
+    crediter: function (montant) {
+        this.solde = this.solde + montant;
+    },
+    // Débite le compte d'un certain montant
+    debiter: function (montant) {
+        this.solde = this.solde - montant;
+    },
+    // Renvoie la description du compte
+    decrire: function () {
+        var description = "Titulaire : " + this.titulaire +
+            ", solde : " + this.solde + " euros";
+        return description;
+    }
+};
+
+console.log(compte.decrire());
+  compte.crediter(credit);
+  compte.debiter(debit);
+console.log(compte.decrire());
+
