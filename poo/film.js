@@ -16,7 +16,7 @@ var film1 = Object.create(Films);
 var film2 = Object.create(Films);
     film2.init("Vice-Versa", 2015, "Pete Docter")
 var film3 = Object.create(Films);
-    film3.init("Vice-Versa", 2013, "Philippe Lacheau et Nicolas Benamou")
+    film3.init("Babeyliss", 2013, "Philippe Lacheau et Nicolas Benamou")
 
 console.log(film1.decrire());
 console.log(film2.decrire());
@@ -25,4 +25,4 @@ console.log(film3.decrire());
 //résultat :
 Le loup de Wall Street ( 2013, Martin Scorsese )
 Vice-Versa ( 2015, Pete Docter )
-Vice-Versa ( 2013, Philippe Lacheau et Nicolas Benamou )
+Babeyliss ( 2013, Philippe Lacheau et Nicolas Benamou )
