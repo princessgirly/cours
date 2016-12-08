@@ -1,3 +1,8 @@
+.pop()supprime toujours le dernier élément d'un tableau
+.shift() supprime toujours le premier élément d'un tableau
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 var ourArray = [1,2,3];
 var removedFromOurArray = ourArray.pop(); 
 // removedFromOurArray now equals 3, and ourArray now equals [1,2]
