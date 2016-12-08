@@ -1,3 +1,17 @@
+var ourArray = [1,2,3];
+var removedFromOurArray = ourArray.pop(); 
+// removedFromOurArray now equals 3, and ourArray now equals [1,2]
+
+
+var myArray = [["John", 23], ["cat", 2]];
+
+var removedFromMyArray = myArray.pop();         // Enlève et Récupère les dernières données du tableau
+// removedFromMyArray = ["John", 23]
+// myArray = ["cat", 2]
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 /* Une façon de penser d'un multi-dimensionnelle tableau, est comme un tableau de tableaux . Lorsque vous utilisez des crochets pour accéder à votre tableau, la première série de crochets se réfère aux entrées dans l'extrême extérieur (le premier niveau) tableau,
 et chaque paire supplémentaire de parenthèses renvoie au prochain niveau d'entrées à l' intérieur. */
 
