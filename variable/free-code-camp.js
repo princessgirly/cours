@@ -1,6 +1,9 @@
 .pop()supprime toujours le dernier élément d'un tableau
 .shift() supprime toujours le premier élément d'un tableau
 
+.unshift() ajoute l'élément au début du tableau
+.push() ajoute l'élément à la fin du tableau
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 var ourArray = [1,2,3];
