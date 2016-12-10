@@ -4,6 +4,25 @@
 .unshift() ajoute l'élément au début du tableau
 .push() ajoute l'élément à la fin du tableau
 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function destroyer(arr) {
+  // Remove all the values
+  var newArray = arguments[0];
+
+
+
+  return newArray.filter(function(val){
+    for (i=1; i<arguments.length; i++) {
+      return val !== arguments[i];
+    }
+  });
+}
+
+destroyer([1, 2, 3, 1, 2, 3], 2, 3);
+
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 var ourArray = [1,2,3];
