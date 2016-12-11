@@ -5,6 +5,10 @@
 .push() ajoute l'élément à la fin du tableau
 
 
+
+//Boolean Les valeurs ne sont jamais écrites avec des guillemets. 
+//Le booléen return soit true ou false
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function destroyer(arr) {
