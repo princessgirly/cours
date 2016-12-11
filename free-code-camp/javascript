@@ -4,11 +4,98 @@
 .unshift() ajoute l'élément au début du tableau
 .push() ajoute l'élément à la fin du tableau
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+if (num > 5 && num < 10) {
+  return "Yes";
+}
+return "No";
 
+
+
+function testLogicalAnd(val) {
+ if (val >= 25 && val <= 50){
+      return "Yes";
+    }
+  return "No";
+}
+testLogicalAnd(10);
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+if (num > 10 || num < 5) {
+  return "No";
+}
+return "Yes";
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//L'opérateur d'inégalité stricte ( !==) est l'inverse de l'opérateur d'égalité stricte. Cela signifie "Strictly Not Equal» 
+//et retourne falseoù l' égalité stricte reviendrait trueet vice versa . Inégalité stricte ne convertit pas les types de données.
+
+Exemples
+
+3! == 3 // false 
+3! == '3' // true 
+4! == 3 // true
+
+
+//L'opérateur d'inégalité ( !=) est le contraire de l'opérateur d'égalité. Cela signifie "Différent" et retourne falseoù 
+//l' égalité serait de retour trueet vice versa . Comme l'opérateur d'égalité, l'opérateur d'inégalité permet de convertir 
+//les types de données de valeurs tout en comparant.
+
+Exemples
+
+1! = 2 // true 
+1! = "1" // false 
+1! = '1' // false 
+1! = True // false 
+0! = False // false
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Boolean Les valeurs ne sont jamais écrites avec des guillemets. 
 //Le booléen return soit true ou false
 
+// La condition Lorsque la condition est évaluée à true, le programme exécute l'instruction à l' intérieur des accolades. 
+//Lorsque la condition booléenne est évaluée à false, l'instruction à l' intérieur des accolades ne sera pas exécuté.
+
+
+if ( condition est vraie ) { 
+  instruction est exécutée
+ }
+
+// Example//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+function ourTrueOrFalse(isItTrue) {
+  if (isItTrue) { 
+    return "Yes, it's true";
+  }
+  return "No, it's false";
+}
+function trueOrFalse(wasThatTrue) {
+    if (wasThatTrue) { 
+    return "Yes, that was true";
+  }
+  return "No, that was false";
+}
+trueOrFalse(true);
+trueOrFalse(false);
+
+function testEqual(val) {
+  if (val==12) { 
+    return "Equal";
+  }
+  return "Not Equal";
+}
+testEqual(10);
+
+// Exemple////////////////////////////////////////////////////////////////////////////////////////////////////////
+function testStrict(val) {
+  if (val===7) { 
+    return "Equal";
+  }
+  return "Not Equal";
+}
+testStrict(10);
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function destroyer(arr) {
